@@ -63,7 +63,7 @@ function App() {
           <p>
             Check <code>README.md</code> for instructions
           </p>
-          <form onSubmit={handleSubmit}>
+          <form aria-label="Add items" onSubmit={handleSubmit}>
             <label>
               Add elements to your list
               <input
